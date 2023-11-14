@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modals with Dennis Daniels, English Teacher</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <style>
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+        }
+        textarea {
+            width: 90%;
+            height: 100px;
+            margin-top: 10px;
+        }
+        .fixed-text {
+            text-align: center;
+        }
+    </style> -->
+</head>
+<body>
+    <h1><center>Adjectives with Dennis Daniels, English Teacher</center></h1>
+    <div class="container">
+        <div class="column">
+            <textarea id="pronounArea"></textarea>
+            <button onclick="next('pronoun')">Next Pronoun</button>
+        </div>
+        <div class="column">
+            <textarea id="modalArea"></textarea>
+            <button onclick="next('modal')">Next Modal</button>
+        </div>
+        <div class="column">
+            <textarea id="phraseArea"></textarea>
+            <button onclick="next('phrase')">Next Phrase</button>
+        </div>
+    </div>
+    <!-- <div class="container">
+        <div class="fixed-text column">Fixed Text 1</div>
+        <div class="fixed-text column">Fixed Text 2</div>
+        <div class="fixed-text column">Fixed Text 3</div>
+    </div> -->
+    <div style="text-align:center; margin-top: 20px;">
+        <button onclick="concatenate()">Concatenate</button>
+    </div>
+    <div style="text-align:center; margin-top: 10px;">
+        <textarea id="concatenatedArea"></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Generator</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+        }
+        textarea {
+            width: 90%;
+            height: 100px;
+        }
+        .fixed-text {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <textarea id="pronounArea"></textarea>
+            <button onclick="next('pronoun')">Next Pronoun</button>
+        </div>
+        <div class="column">
+            <textarea id="modalArea"></textarea>
+            <button onclick="next('modal')">Next Modal</button>
+        </div>
+        <div class="column">
+            <textarea id="phraseArea"></textarea>
+            <button onclick="next('phrase')">Next Phrase</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="fixed-text column">Fixed Text 1</div>
+        <div class="fixed-text column">Fixed Text 2</div>
+        <div class="fixed-text column">Fixed Text 3</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
